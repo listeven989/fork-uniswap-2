@@ -21,3 +21,7 @@ on another window, deploy uniswap-v2-core
 cd fork-uniswap-2/core
 truffle migrate
 ```
+
+## Troubleshooting
+
+Periphery and core are on separate folders and deployments because Uniswap used different solidity versions for them
